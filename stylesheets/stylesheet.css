@@ -446,22 +446,25 @@ a {
 a:hover {
   color: #2268b2;
 }
-
+/*changed font-family in header primary of Arial, removed Architects Daughter*/
 header {
   padding-top: 40px;
   padding-bottom: 40px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
+  font-family: Arial, 'Helvetica Neue', Helvetica, serif;
+  background: #2e7bcf;
+  /*used background color only*/
   border-bottom: solid 1px #275da1;
   /*which fonts from the font-family is displaying on the website*/
 }
 /*add your name to your web page along with your email address*/
+/*added font-family to arial*/
 header h1 {
   width: 540px;
   margin-top: 0;
   margin-bottom: 0.2em;
   font-size: 72px;
   font-weight: normal;
+  font-family:arial;
   line-height: 1;
   color: #fff;
   letter-spacing: -1px;
@@ -535,7 +538,9 @@ header a.button {
   position: absolute;
   top: 0;
   right: 0;
-  background: transparent url(../images/github-button.png) 0 0 no-repeat;
+  width:300px;
+  height:350px;
+  background: transparent url(../images/leder-curlett.jpg) 0 0 no-repeat;
 }
 aside a.button {
   display: block;
